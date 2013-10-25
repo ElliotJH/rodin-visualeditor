@@ -1,0 +1,9 @@
+This is the source for the Eclipse project that holds the plugin.
+
+It is NOT a workspace.
+
+The setup is:
+
+* Eclipse Kepler
+* Target Platform as per: http://wiki.event-b.org/index.php/Using_Rodin_as_Target_Platform
+* Graphiti from: http://download.eclipse.org/releases/kepler
