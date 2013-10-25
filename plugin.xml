@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="org.eventb.ui"
+            class="MyDiagramEditor"
+            id="uk.ac.southampton.ecs.gdp29.view2"
+            name="Project Diagram Viewer"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.graphiti.ui.diagramTypeProviders">
+      <diagramTypeProvider
+            class="uk.ac.southampton.ecs.gdp29.BasicDiagramTypeProvider"
+            context="org.eclipse.graphiti.ui.diagramEditor"
+            id="uk.ac.southampton.ecs.gdp29.BasicDiagramTypeProvider"
+            name="uk.ac.southampton.ecs.gdp29.BasicDiagramTypeProvider">
+         <diagramType
+               id="uk.ac.southampton.ecs.gdp29.myDiagramType">
+         </diagramType>
+      </diagramTypeProvider>
+   </extension>
+   <extension
+         point="org.eclipse.graphiti.ui.diagramTypes">
+      <diagramType
+            id="uk.ac.southampton.ecs.gdp29.myDiagramType"
+            name="uk.ac.southampton.ecs.gdp29.myDiagramType"
+            type="uk.ac.southampton.ecs.gdp29.myDiagramType">
+      </diagramType>
+   </extension>
+
+</plugin>
