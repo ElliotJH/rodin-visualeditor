@@ -1,3 +1,4 @@
+package uk.ac.southampton.ecs.gdp29;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.graphiti.ui.editor.DiagramComposite;
 import org.eclipse.graphiti.ui.editor.DiagramEditorInput;
