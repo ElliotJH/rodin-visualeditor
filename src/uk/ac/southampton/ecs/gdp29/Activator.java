@@ -1,4 +1,4 @@
-package uk.ac.southampton.ecs.testplugin;
+package uk.ac.southampton.ecs.gdp29;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 
