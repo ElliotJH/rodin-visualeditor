@@ -31,5 +31,15 @@
             type="uk.ac.southampton.ecs.gdp29.myDiagramType">
       </diagramType>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.eclipse.graphiti.ui.editor.DiagramEditor"
+            extensions="diagram"
+            icon="icons/sample.gif"
+            id="uk.ac.southampton.ecs.gdp29.editors.DiagramEditor"
+            name="Graphiti Diagram Editor">
+      </editor>
+   </extension>
 
 </plugin>
