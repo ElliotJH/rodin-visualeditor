@@ -5,7 +5,7 @@
          point="org.eclipse.ui.views">
       <view
             category="org.eventb.ui"
-            class="MyDiagramEditor"
+            class="uk.ac.southampton.ecs.gdp29.MyDiagramEditor"
             id="uk.ac.southampton.ecs.gdp29.view2"
             name="Project Diagram Viewer"
             restorable="true">
