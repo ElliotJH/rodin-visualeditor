@@ -41,5 +41,31 @@
             name="Graphiti Diagram Editor">
       </editor>
    </extension>
-
+   <extension point="org.eclipse.ui.menus">
+	  <menuContribution
+	        locationURI="popup:org.eclipse.ui.navigator.ProjectExplorer#PopupMenu?after=additions">
+	     <menu
+	           id="uk.ac.southampton.ecs.gdp29.editors.GenerateDiagram"
+	           label="Generate Diagram">
+	     </menu>
+	  </menuContribution>
+	  <menuContribution
+	        locationURI="popup:uk.ac.southampton.ecs.gdp29.editors.GenerateDiagram?after=additions">
+	     <command
+	           commandId="org.eclipse.commands.generateDiagram"
+	           icon="icons/generate.gif"
+	           label="Generate"
+	           style="push">
+	     </command>
+	  </menuContribution>
+	</extension>
+   <extension
+   		point="org.eclipse.ui.commands">
+      <command
+         categoryId="org.eclipse.ui.category.window"
+         defaultHandler="uk.ac.southampton.ecs.gdp29.GenerateDiagram"
+         id="org.eclipse.commands.generateDiagram"
+         name="generateDiagram">
+      </command>
+   </extension>
 </plugin>

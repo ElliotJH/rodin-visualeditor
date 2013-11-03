@@ -22,9 +22,10 @@ public class MyDiagramEditor extends ViewPart {
 		this.diagramComposite.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
 		
 		this.diagramComposite.setInput(new DiagramEditorInput(
-			URI.createURI("/Event-B Project/src/diagrams/newDiagram.diagram"),
+			URI.createURI("/TestProject/src/diagrams/newDiagram.diagram"),
 			"uk.ac.southampton.ecs.gdp29.BasicDiagramTypeProvider"
 		));
+	
 	}
 
 	@Override
